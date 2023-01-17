@@ -1,0 +1,62 @@
+body {
+text-align: center;
+}
+
+h1, h2, h3 {
+text-align: center;
+}
+
+p {
+text-align: left;
+margin: 0 auto;
+width: 80%;
+}
+
+section {
+margin: 0 auto;
+width: 80%;
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.row {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.col {
+text-align: center;
+margin: 0 auto;
+width: 80%;
+}
+
+/* You can also add some colors and font styles to make the CV look more visually appealing */
+
+body {
+font-family: Arial, sans-serif;
+color: #333;
+background-color: #f4f4f4;
+}
+
+h1 {
+color: #3498db;
+}
+
+h2 {
+color: #34495e;
+}
+
+h3 {
+color: #3498db;
+}
+
+section {
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+}
