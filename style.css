@@ -60,3 +60,37 @@ background-color: #fff;
 padding: 20px;
 border-radius: 10px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+e-between;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+<style>
+  /* définir une grille avec des colonnes pour la mise en page */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  /* ajuster la largeur de la colonne en fonction de la largeur de l'écran */
+  .col {
+    grid-column: span 12;
+  }
+
+  /* utiliser media queries pour adapter la mise en page en fonction de la largeur de l'écran */
+  @media only screen and (max-width: 768px) {
+    .col {
+      grid-column: span 12;
+    }
+  }
+</style>
+
