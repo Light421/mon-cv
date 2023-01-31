@@ -74,7 +74,7 @@ section {
 p {
     margin-bottom: 10px;
 }
-<style>
+
   /* définir une grille avec des colonnes pour la mise en page */
   .container {
     display: grid;
@@ -92,5 +92,37 @@ p {
       grid-column: span 12;
     }
   }
-</style>
 
+<body style="background-color: #333;">
+body {
+background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+background-size: 400% 400%;
+animation: BackgroundAnimation 15s ease infinite;
+}
+
+@keyframes BackgroundAnimation {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+
+.button, a {
+min-width: 48px;
+min-height: 48px;
+padding: 12px;
+}
+
+.button, a {
+margin: 12px;
+}
+
+body {
+background-color: #333;
+color: #fff;
+}
